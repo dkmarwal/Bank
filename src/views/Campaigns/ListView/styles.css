@@ -1,0 +1,9 @@
+.accPanel {
+    background-color: rgba(239,239,239,0.54) !important;
+    border-bottom: 3px solid rgb(0, 45, 114);
+}
+.accheading {
+    color: #4C4C4C;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}

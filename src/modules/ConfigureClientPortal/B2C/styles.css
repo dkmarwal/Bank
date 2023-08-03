@@ -1,0 +1,11 @@
+.checkboxGroupContainer svg {
+  color: #999999 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.checkboxGroupContainer .PrivateSwitchBase-checked-99 svg {
+  color: #008ce6 !important;
+}
+
+

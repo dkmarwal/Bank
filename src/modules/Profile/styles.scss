@@ -1,0 +1,78 @@
+.avatarImg {
+  width: 50%;
+  max-width: 100%;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.card {
+  transition: 0.3s;
+  width: 40%;
+  margin-bottom: 10%;
+  margin: auto;
+  //float: right;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+  width: 100%;
+  text-align: center;
+  //background:red;
+  box-sizing: border-box;
+}
+
+.profilePhotoContainer {
+  background: #dedede;
+  color: gray;
+  border-radius: 500px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  text-align: center;
+  flex-flow: wrap;
+  margin: 0 auto;
+}
+
+.profileInfo {
+  text-align: center;
+
+  span {
+    display: block;
+    margin: 5px 0;
+    letter-spacing: 1px;
+  }
+
+  .name {
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+
+  .designation {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}
+.profilePhotoContainer {
+  background: #e6e6e6;
+  color: #7f7f7f;
+  font-size: 14px;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  text-align: center;
+  flex-flow: wrap;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.large {
+  height: 100px !important;
+  width: 100px !important;
+  font-size: 30px !important;
+  background: #e6e6e6 !important;
+  margin: 0px auto;
+  color: #000 !important;
+  margin-bottom: 10px;
+}

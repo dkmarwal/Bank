@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>945F56B2-8997-46F5-B0A0-262421C38337</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.098039 0 0 0 0 0.254902 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M10.4166667,6.66666665 C8.20833333,6.66666665 6.20833332,7.49166666 4.66666663,8.83333332 L1.66666663,5.83333332 L1.66666663,13.3333333 L9.16666663,13.3333333 L6.14999998,10.3166667 C7.30833332,9.35 8.78333333,8.74999999 10.4166667,8.74999999 C13.3666667,8.74999999 15.875,10.675 16.75,13.3333333 L18.725,12.6833333 C17.5666667,9.19166666 14.2916667,6.66666665 10.4166667,6.66666665 L10.4166667,6.66666665 Z" id="path-2"></path>
+    </defs>
+    <g id="Client-Portal-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="MY-SUPPLIERS-Table" transform="translate(-984.000000, -385.000000)">
+            <g id="ic_lock" transform="translate(984.000000, 384.000000)" filter="url(#filter-1)">
+                <g transform="translate(0.000000, 1.000000)">
+                    <polygon id="Base" points="-4.16666672e-08 -4.16669839e-08 20 -4.16669839e-08 20 20 -4.16666672e-08 20"></polygon>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Icon"></g>
+                    <rect id="↳-🎨-Color" fill="#0B1941" mask="url(#mask-3)" x="0" y="0" width="20" height="20"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,100 @@
+.confirmModal div[role="dialog"] {
+  padding: 24px;
+}
+
+.dialogTitle {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #0b1941;
+}
+.dialogTitle h2 {
+  font-size: 20px;
+}
+.dialogConten {
+  font-size: 17px;
+  text-align: center;
+  color: #0b1941;
+}
+.noBtn {
+  background-color: white !important;
+  border: 1px solid #0b1941 !important;
+  color: #014d6b !important;
+}
+.yesBtn {
+  background: #0b1941 !important;
+}
+.yesBtn,
+.noBtn {
+  padding: 0.8rem 8rem !important;
+  margin-left: 5% !important;
+}
+.alert-dialog-message {
+  font-size: 20px;
+  font-weight: 300;
+}
+.dialogTitle,
+.dialogConten {
+  text-align: center;
+}
+.customDialog {
+  margin: 0 auto;
+}
+
+.customSideDialog {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 0;
+  // width: 630px;
+  width: 30%;
+  min-width: 300px;
+  padding: 0;
+  overflow-y: scroll;
+  height: 100%;
+  bottom: 0;
+  max-height: none;
+  max-width: none;
+  background: white;
+
+  .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #0b1941;
+    padding: 4.5px 0;
+    justify-content: space-between;
+  }
+
+  .dialogTitle {
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #0b1941;
+  }
+
+  .alert-dialog-message {
+    font-size: 20px;
+    font-weight: 300;
+    overflow: hidden;
+    height: 100%;
+    display: block;
+  }
+
+  .imgIcon {
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .dialogConten {
+    font-size: 17px;
+  }
+
+  button.MuiButtonBase-root {
+    font-size: 12px;
+  }
+}
+
+.MuiDialog-paperScrollPaper {
+  flex-direction: row !important;
+}

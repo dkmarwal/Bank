@@ -1,0 +1,63 @@
+pipeline {
+    agent none
+    stages {
+		stage('Sonar Code Quality') {
+            when {
+                branch 'admin_aws_cc'
+            }
+            agent {label 'master'}
+			environment {
+				scannerHome = tool 'sonar-cli'
+			}
+            steps {
+                script {
+					withSonarQubeEnv('sonar') {
+						sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=bank-portal"
+					}
+				}
+            }
+        }
+        stage('Install NodeJS dependencies') {
+            when {
+                branch 'admin_aws_cc'
+            }
+            agent {label 'master'}
+            steps {
+                dir('./SourceCode/Frontend/frontend_citib2b') {
+					sh 'npm install'
+                }
+				dir('./SourceCode/Frontend/frontend_citib2b/server') {
+					sh 'npm install'
+                }
+            }
+        }
+        stage('Build NodeJS') {
+            when {
+                branch 'admin_aws_cc'
+            }
+            agent {label 'master'}
+            steps {
+                dir('./SourceCode/Frontend/frontend_citib2b') {
+					sh 'REACT_APP_STAGE=uat PUBLIC_URL=/ yarn build'
+					sh 'cp -r build server/'
+                }
+            }
+        }
+        stage('Deploy_UAT') {
+            when {
+                branch 'admin_aws_cc'
+            }
+            agent {label 'master'}
+            steps {
+                input 'Deploy to UAT?'
+                milestone(1)
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'cc-webserver', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''pwd; chmod +x /admin_portal/deploy_run.sh; sh /admin_portal/deploy_run.sh;''', execTimeout: 30000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'admin_portal', remoteDirectorySDF: false, removePrefix: 'SourceCode/Frontend/frontend_citib2b/server', sourceFiles: 'SourceCode/Frontend/frontend_citib2b/server/**/*')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: true)])			
+            }
+            post {
+		       always {
+                    cleanWs()
+               }
+            }
+        }
+    }
+}

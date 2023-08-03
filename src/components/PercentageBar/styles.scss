@@ -1,0 +1,53 @@
+.cardWrap {
+  overflow: inherit !important;
+  ._content{
+    min-height: 50px;
+  }
+  .main{
+    position: relative;
+    margin-bottom: 18px;
+  }
+  .bar{
+    display: flex;
+    justify-content: left;
+    &-title{
+      white-space: nowrap;
+      font-size: 12px;
+      margin-top: 5px;
+      margin-left: 2px;
+    }
+  }
+  .primary{
+    height: 32px;
+    width:150px;
+    // margin: 0 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    &__top{
+      position: relative; //
+      background-color: #FFC1CC;
+      max-width: 30%;
+      top: 8px;
+    }
+    &__bottom{
+      background-color: #295D91;
+      // width: 100%;
+      top: 15px;
+      color: #FFFFFF;
+    }
+  }
+  .stats{
+    font-size: 14px;
+    padding: 5px;
+  }
+  .bar-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+}
+

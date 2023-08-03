@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>26047973-3406-4893-9534-90986DF8D59E</title>
+    <defs>
+        <path d="M20,3.99999997 L3.99999996,3.99999997 C2.88999996,3.99999997 2.00999996,4.88999997 2.00999996,5.99999997 L1.99999996,18 C1.99999996,19.11 2.88999996,20 3.99999996,20 L20,20 C21.11,20 22,19.11 22,18 L22,5.99999997 C22,4.88999997 21.11,3.99999997 20,3.99999997 L20,3.99999997 Z M20,18 L3.99999997,18 L3.99999997,12 L20,12 L20,18 L20,18 Z M20,7.99999997 L3.99999997,7.99999997 L3.99999997,5.99999997 L20,5.99999997 L20,7.99999997 L20,7.99999997 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MyPayersExpanded_alt-1" transform="translate(-819.000000, -903.000000)">
+            <g id="Group-7" transform="translate(808.000000, 695.000000)">
+                <g id="Accordion/No-Check/open" transform="translate(0.000000, 192.000000)">
+                    <g id="ic_arrow_back" transform="translate(11.000000, 16.000000)">
+                        <polygon id="Base" points="-5.00000112e-08 -4.9999926e-08 24 -4.9999926e-08 24 24.0000001 -5.00000112e-08 24.0000001"></polygon>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Icon" fill-rule="nonzero"></g>
+                        <rect id="↳-🎨-Color" fill="#0b1a40" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

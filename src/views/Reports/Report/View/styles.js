@@ -1,0 +1,200 @@
+const styles = (theme) => ({
+  root: {
+    margin: 0,
+    flexGrow: 1,
+    width: "100%",
+  },
+  paper: {
+    margin: 30,
+    width: "100%",
+    padding: "30px 15px",
+  },
+  maxwidthInput: {
+    ".MuiMenuItem-root": {
+      overflow: "visible !important",
+      width: "100%",
+    },
+  },
+  inputLabel: {
+    margin: ".5rem 0",
+    color: "#76777b",
+    fontSize: 14,
+    fontWeight: 400,
+    lineHeight: 25,
+    display: "block",
+    marginBottom: 0,
+  },
+  formControl: {
+    margin: theme.spacing(1),
+    width: "100%",
+    maxWidth: 300,
+  },
+  fieldset: {
+    border: "1px solid #d8d8d8",
+    padding: "0 20px 10px 20px",
+    width: "90%",
+    display: "block",
+    marginBottom: 20,
+  },
+  legend: {
+    width: "auto",
+    padding: 5,
+    fontSize: 14,
+    borderBottom: 0,
+    fontWeight: 500,
+    marginBottom: 10,
+  },
+  gridItem: {
+    padding: "3px 10px",
+  },
+  panelHeading: {
+    backgroundColor: "#f9f9f9",
+  },
+  pageHeader: {
+    borderBottom: 0,
+    padding: "0 0 15px 0",
+    letterSpacing: 1,
+    fontSize: 24,
+    color: "#243d7d",
+  },
+  mandatory: {
+    color: "#ff0000",
+  },
+  formHeading: {
+    paddingLeft: 28,
+    margin: 10,
+    fontSize: 20,
+    color: "#056dae",
+    fontWeight: 700,
+    textTransform: "uppercase",
+    display: "inline-block",
+  },
+  input: {
+    display: "none",
+  },
+  uploadBtn: {
+    borderRadius: 28,
+    justifyContent: "flex-start",
+    height: 54,
+    width: "100%",
+  },
+  multiSelect: {
+    width: "100%",
+  },
+
+  tabClass: {
+    flexGrow: 1,
+    margin: 5,
+    height: 25,
+    minHeight: 25,
+    padding: 0,
+  },
+  tabItem: {
+    root: {
+      flexGrow: 1,
+      color: theme.palette.secondary.dark,
+      borderRadius: 4,
+      //            textTransform: "capitalize",
+      // backgroundColor: theme.palette.background.active,
+      backgroundColor: "#6094B1",
+      border: "none",
+    },
+    flexContainer: {
+      margin: 5,
+    },
+  },
+  indicator: {
+    backgroundColor: "transparent",
+    color: "#fff",
+    borderRadius: 0,
+  },
+  checkedIcon: {
+    position: "relative",
+    textTransform: "none",
+  },
+  checkClass: {
+    height: 16,
+    width: 16,
+    position: "absolute",
+    left: -28,
+    top: 6,
+  },
+  selected: {
+    backgroundColor: "#6094B1",
+    color: "#fff",
+    borderRadius: 4,
+    marginRight: 0,
+    //textTransform: "capitalize",
+  },
+  dropdownStyle: {
+    maxHeight: "200px",
+  },
+  smallIcon: {
+    width: "20px",
+    height: "24px",
+    color: "#0b1941",
+  },
+  iconText: {
+    paddingLeft: "5px",
+    fontSize: "14px",
+    lineHeight: "18px",
+    lineSpacing: "0.25px",
+    color: "#0b1941",
+  },
+
+  paperContainer: {
+    margin: "20px",
+    padding: "20px"
+  },
+
+  gridContainer: {
+    padding: "5px"
+  },
+
+  reportHeading: {
+    marginBottom: "20px"
+  },
+
+  parameterHeading: {
+    marginTop: "20px",
+    marginBottom: "30px"
+  },
+
+  gridMargin: {
+    marginBottom: "40px"
+  },
+
+  cancelButton: {
+    margin: "0 20px 0 0"
+  },
+
+  buttonGrid: {
+    marginTop: "50px"
+  },
+
+  dateCaption: {
+    width: "95%", 
+    margin: "-10px auto 0 auto"
+  },
+
+  label: {
+    "&$erroredLabel": {
+      color: "red"
+    }
+  },
+
+  helperText: {
+    '& .MuiFormHelperText-root': {
+        height: '0',
+        marginTop: '0',
+        marginLeft: '0'
+    }
+  },
+  dateBox: {
+    '& .MuiFormLabel-root.Mui-error':{
+      color: "#5f697a"
+    }
+}
+});
+
+export default styles;

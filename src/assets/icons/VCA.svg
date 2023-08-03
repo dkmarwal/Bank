@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>176A1430-579D-4209-8D7A-33755580A938</title>
+    <defs>
+        <path d="M18,15 L18,16 C18,17.1 17.1,18 16,18 L2,18 C0.89,18 0,17.1 0,16 L0,2 C0,0.9 0.89,0 2,0 L16,0 C17.1,0 18,0.9 18,2 L18,3 L9,3 C7.89,3 7,3.9 7,5 L7,13 C7,14.1 7.89,15 9,15 L18,15 L18,15 Z M9,13 L19,13 L19,5 L9,5 L9,13 L9,13 Z M13,10.5 C12.17,10.5 11.5,9.83 11.5,9 C11.5,8.17 12.17,7.5 13,7.5 C13.83,7.5 14.5,8.17 14.5,9 C14.5,9.83 13.83,10.5 13,10.5 L13,10.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Client-Onboarding-Bank-Portal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Company-Profile:-Assisted-Client-Profile-Setup----Copy-4" transform="translate(-899.000000, -387.000000)">
+            <g id="ic_add" transform="translate(899.000000, 387.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="🎨-Color" mask="url(#mask-2)" fill="#282828">
+                    <g transform="translate(-16.000000, -16.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="50" height="50"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+.import_text {
+  padding-left: 30px;
+  margin: 20px 0;
+  background: #fff;
+}
+.client_profile {
+  flex-grow: 1;
+  // margin: 0 20px 20px 50px;
+  padding: 0 15px;
+  .title {
+    line-height: 22px;
+    font-size: 16px;
+    color: #0b1941;
+    padding: 20px 0;
+    font-weight: bold;
+  }
+  .companyDetails {
+    padding: 1px 0 20px 25px;
+  }
+  // #phoneNumber{
+  //   padding: 17px!important;
+  // }
+  .phoneField {
+    .MuiInputBase-formControl{
+      font-size: 14px;
+    }
+  }
+}
